@@ -1,0 +1,21 @@
+# Environment, local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+config.local.*
+# Local logger captures (review and redact before sharing)
+logger_research/
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+*.spec
+# Editors
+.vscode/
+.idea/
