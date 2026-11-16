@@ -8,6 +8,8 @@ secrets.*
 config.local.*
 # Local logger captures (review and redact before sharing)
 logger_research/
+# Browser profile may contain authenticated logger cookies and session data
+.deye_browser_profile/
 # Python
 __pycache__/
 *.py[cod]
